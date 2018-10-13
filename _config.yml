@@ -1,34 +1,34 @@
 # Site setings
-name: "Horace"
-description: "Horace is a simple Jekyll theme for writers and bloggers. Explore it yourself."
+name: "Personal Portfolio"
+description: "My personal portfolio - Alejandro Isa Adaniya"
 meta_description: "Jekyll template, minimal style, perfect for bloggers."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/namelogo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl:
-production_url: https://horace.netlify.com/ 
+production_url: https://horace.netlify.com/
 disqus: 'justgoodthemes'
 mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
 cover_image: bc_1.jpg
 
 # Author
 author:
-    name: "Daniel Bennett"
+    name: "Alejandro Isa Adaniya"
     image: "authorimage.jpg"
-    greetings: "Hi there!"
-    description: "My name is Daniel Bennett. I'm a freelance front-end developer, author and speaker based in Austin, TX. It’s nice to meet you."
-    bio: "Daniel is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious."
+    greetings: "Welcome to my Portfolio!"
+    description: "My name is Alejandro Isa. This is where you will find personal projects I have worked on and other projects I am learning about./n Enjoy!"
+    bio: "Alejandro is a graduated computer scientist from Memorial University of Newfoundland. Passions include coding and interface design."
 
 # Social links
-twitter: "username"
-facebook: "username"
-googleplus: "+username"
-github: "tomasbankauskas"
-codepen: "username"
-dribbble: "username"
-medium: "@username"
-instagram: "username"
-pinterest: "username"
-linkedin: "username"
+twitter:
+facebook:
+googleplus:
+github: "aisaadaniya"
+codepen:
+dribbble:
+medium:
+instagram:
+pinterest:
+linkedin: "aisaadaniya"
 
 navigation:
 - text: About
@@ -41,10 +41,10 @@ plugins_dir:
   - jekyll-paginate
   - jekyll-tagsgenerator
 
-# Pagination 
+# Pagination
 paginate: 5
 paginate_path: /page:num/
-    
+
 # Permalinks
 permalink: /:title
 
