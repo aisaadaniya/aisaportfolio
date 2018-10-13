@@ -18,6 +18,11 @@ title: Home
     {% if page.url == "/" %}
     <div class="post-feed-title inner">Latest Articles</div>
     {% endif %}
+    <div class="post-feed inner-wide">
+        {% for post in paginator.posts %}
+            {% include postbox.html %}
+        {% endfor %}
+    </div>
 </div>
 <!-- Pagination-->
 {% include pagination.html %}

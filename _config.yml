@@ -35,6 +35,8 @@ navigation:
   url: /about/
 - text: Style Guide
   url: /style-guide/
+- text: Test
+  url: /test/
 
 # Required Plugins
 plugins_dir:
