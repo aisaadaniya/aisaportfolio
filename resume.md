@@ -4,36 +4,50 @@ title: Resume
 featured_image: /assets/images/pages/about.jpg
 ---
 
-<!-- Trigger the Modal -->
-<img id="myImg" src="/assets/images/respage1.jpg" alt="Snow" style="width:100%;max-width:300px">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="/assets/images/pages/respage1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="/assets/images/pages/respage2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
 </div>
 
-<!-- Trigger the Modal -->
-<img id="myImg" src="/assets/images/respage2.jpg" alt="Snow" style="width:100%;max-width:300px">
-
-<!-- The Modal -->
+<!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="img1_wide.jpg" style="width:100%">
+    </div>
 
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="img2_wide.jpg" style="width:100%">
+    </div>
 
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Page 1">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Page 2">
+    </div>
+
+  </div>
 </div>
 
 Download in PDF format *here*.
