@@ -31,7 +31,6 @@
 		});
 
 		// Image lightbox
-		<script>
 		// Open the Modal
 		function openModal() {
 			document.getElementById('myModal').style.display = "block";
@@ -72,8 +71,6 @@
 			dots[slideIndex-1].className += " active";
 			captionText.innerHTML = dots[slideIndex-1].alt;
 		}
-		</script>
-
 
 		// Show comments
 		var interval = setInterval(function() {
