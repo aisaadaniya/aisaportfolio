@@ -7,10 +7,10 @@ featured_image: /assets/images/pages/about.jpg
 <!-- Images used to open the lightbox -->
 <div class="row">
   <div class="column">
-    <img src="/assets/images/pages/respage1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img src="/assets/images/respage1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
   </div>
   <div class="column">
-    <img src="/assets/images/pages/respage2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="/assets/images/respage2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
   </div>
 </div>
 
