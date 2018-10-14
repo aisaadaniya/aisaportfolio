@@ -4,6 +4,6 @@ title: testing
 featured_image: /assets/images/pages/about.jpg
 ---
 
-lets try testing this out.
+[![Edit cxjs-codesandbox-template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/nq482pnyl)
 
 *Thank You for reading!*
