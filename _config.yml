@@ -1,6 +1,6 @@
 # Site setings
 name: "My Personal Portfolio"
-description: "I wanted to find a place where I could place all my projects and display them properly. Here they are!"
+description: "I wanted to find a place where I could put all my projects and display them properly, so here it is, please enjoy!"
 meta_description: "Jekyll template, minimal style, perfect for bloggers."
 logo: 'assets/images/namelogo.png'
 favicon: 'assets/images/pagefavicon.ico'
@@ -12,7 +12,7 @@ cover_image: bc_1.jpg
 # Author
 author:
     name: "Alejandro Isa Adaniya"
-    image: "authorimage.jpg"
+    image: "asd.jpg"
     greetings: "Welcome to my Portfolio!"
     description: "My name is Alejandro Isa. This is where you will find personal projects I have worked on and other projects I am learning about.\n Enjoy!"
     bio: "Alejandro is a graduated computer scientist from Memorial University of Newfoundland. Passions include coding and interface design."
