@@ -19,7 +19,7 @@
     <!-- CSS Styles -->
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 </head>
-      
+
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body class="{{ layout }}">
@@ -42,17 +42,13 @@
     {% else %}
         {% include header.html %}
     {% endif %}
-    
+
     {{ content }}
 
     {% if paginator.total_posts > site.paginate %}
     {% if page.class == 'tag-template' %}
         {% include tag-pagination.html %}
     {% endif %}
-    {% endif %}
-
-    {% if site.mailchimp_url and page.class == 'tag-template' %}
-        {% include newsletter-box.html %}
     {% endif %}
 
     <footer id="colophon" class="site-footer outer">
@@ -76,7 +72,7 @@
 {% include sidebar.html %}
 
 <!-- Javascript Assets -->
-<script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>  
+<script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
 <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
 
