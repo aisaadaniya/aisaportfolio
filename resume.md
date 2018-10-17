@@ -39,3 +39,5 @@ span.onclick = function() {
 </script>
 
 Download in PDF format [here](https://github.com/aisaadaniya/aisaportfolio/raw/master/assets/files/Alejandro%20Isa%20Adaniya%20-%20Resume.pdf).
+
+Last updated: 17/10/2018
