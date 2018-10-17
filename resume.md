@@ -5,31 +5,25 @@ featured_image:
 ---
 
 <!-- Trigger the Modal -->
-<img class="myImgs" id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="left">
-<img class="myImgs" id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="right">
 
-<!-- The Modal -->
+<img class="myImages" id="myImg" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="left">
+<img class="myImages" id="myImg" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="right">
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
   <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 </div>
 
-<script>
+// create references to the modal...
 var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var images = document.getElementsByClassName('myImgs');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
 var modalImg = document.getElementById("img01");
+// and the caption in the modal
 var captionText = document.getElementById("caption");
 
-
+// Go through all of the images with our custom class
 for (var i = 0; i < images.length; i++) {
   var img = images[i];
   // and attach our click listener for this image.
@@ -40,13 +34,10 @@ for (var i = 0; i < images.length; i++) {
   }
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-</script>
 
 Download in PDF format *here*.
