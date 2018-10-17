@@ -1234,19 +1234,19 @@
  }
 
  /* Style the Image Used to Trigger the Modal */
-#myResume {
+#myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myResume:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 10; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -1261,7 +1261,7 @@
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 100%;
     max-width: 700px;
 }
 
