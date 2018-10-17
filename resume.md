@@ -6,8 +6,8 @@ featured_image:
 
 <!-- Trigger the Modal -->
 
-<img class="myImages" id="myImg" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="center">
-<img class="myImages" id="myImg" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="center">
+<img class="myImages" id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="center">
+<img class="myImages" id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="center">
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
