@@ -5,8 +5,8 @@ featured_image:
 ---
 
 <!-- Trigger the Modal -->
-<img class="images" id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="left">
-<img class="images" id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="right">
+<img class="myImgs" id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="left">
+<img class="myImgs" id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="right">
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -25,7 +25,7 @@ featured_image:
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementsByClassName('images');
+var images = document.getElementsByClassName('myImgs');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
