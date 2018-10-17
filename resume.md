@@ -5,26 +5,11 @@ featured_image:
 ---
 
 <!-- Trigger the Modal -->
-<img id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px">
+<img class="images" id="myResume" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px">
+<img class="images" id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px">
 
 <!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-
-<!-- Trigger the Modal -->
-<img id="myResume" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" align="left">
 
   <!-- The Close Button -->
   <span class="close">&times;</span>
@@ -43,10 +28,16 @@ var modal = document.getElementById('myModal');
 var img = document.getElementById('myResume');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
+
+
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
+  }
 }
 
 // Get the <span> element that closes the modal
