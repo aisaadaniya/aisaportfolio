@@ -14,7 +14,6 @@ featured_image:
   <div id="caption"></div>
 </div>
 
-<script>
 // create references to the modal...
 var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
@@ -40,7 +39,5 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
-</script>
 
 Download in PDF format *here*.
