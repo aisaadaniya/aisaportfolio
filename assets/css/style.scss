@@ -809,6 +809,7 @@
 
 .site-footer-inside {
   position: relative;
+  z-index: 1;
 }
 
 .site-footer .social-links {
@@ -817,7 +818,6 @@
 
 .site-footer .social-links a {
   margin: 0 3px 0.3125em;
-  z-index: -1;
 }
 
 .site-info {
