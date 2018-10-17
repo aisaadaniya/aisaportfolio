@@ -6,14 +6,15 @@ featured_image:
 
 <!-- Trigger the Modal -->
 
-<img class="myImages" id="myImg" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="left">
-<img class="myImages" id="myImg" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="right">
+<img class="myImages" id="myImg" src="/assets/images/respage1.jpg" alt="Page 1" style="width:100%;max-width:300px" align="center">
+<img class="myImages" id="myImg" src="/assets/images/respage2.jpg" alt="Page 2" style="width:100%;max-width:300px" align="center">
 <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
 
+<script>
 // create references to the modal...
 var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
@@ -39,5 +40,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+</script>
 
 Download in PDF format *here*.
