@@ -6,7 +6,6 @@ logo: 'assets/images/namelogo.png'
 favicon: 'assets/images/pagefavicon.ico'
 baseurl:
 production_url: https://horace.netlify.com/
-disqus: 'justgoodthemes'
 cover_image: bc_1.jpg
 
 # Author
