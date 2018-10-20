@@ -34,8 +34,8 @@ navigation:
   url: /about/
 - text: Style Guide
   url: /style-guide/
-- text: Test
-  url: /test/
+- text: LiteBrite
+  url: /litebrite/
 - text: Resume
   url: /resume/
 
