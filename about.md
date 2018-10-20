@@ -1,15 +1,15 @@
 ---
 layout: page
 title: About
-featured_image: /assets/images/pages/about.jpg
+featured_image: /assets/images/pages/about_canyon.jpg
 ---
 
-Daniel Bennett is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in **Computer Science**, he worked for three small web shops where he honed his development skills and love for JavaScript.
+Hey there! Thanks for visiting my site! My name is Alejandro Isa, everyone knows me by Alex. After graduating high school from Markham College in Lima, Peru, I travelled to Newfoundland and Labrador, Canada, to pursue a **BSc. in Computer Science** at Memorial University of Newfoundland.
 
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. **Net** magazine named him a person to watch in 2018.
+During my time at university, I gained valuable experience in technical support and customer service at The Commons, located inside the Queen Elizabeth II Library at Memorial University.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+>Choose a job you love and you will never have to work a day in your life. <cite>Unknown</cite>
 
-As a hobby, Daniel authors the most influential JavaScript blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+As a hobby, I enjoy learning about photography and visual design, focusing on user interaction and aesthetic design production.
 
 *Thank You for reading!*
